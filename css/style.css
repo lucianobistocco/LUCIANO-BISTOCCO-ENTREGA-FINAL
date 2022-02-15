@@ -60,9 +60,15 @@ h1{
     width: 550px;
     margin: auto;
 }
-
-
-
+ /*/GALERIA*/ 
+.card-text{
+    font-family: 'Open Sans', sans-serif;
+    font-style:italic;
+}
+.h3top10{
+    font-family: 'Open Sans', sans-serif;
+    font-style:italic;
+}
 /*.imagenprincipal{
    vertical-align: top;
    padding-left: 40px;   
@@ -115,9 +121,12 @@ h1{
     
     
     
+    
 }
 .barradenavegacion li a:hover{
     background: rgb(0, 0, 0);
+}
+
 }
 /*/Articulos */ 
 
@@ -187,6 +196,7 @@ iframe {
     font-family: 'Open Sans', sans-serif;
     color: black;
 }
+ /*/ACA VA EL RESPONSIVE*/ 
 @media(max-width: 320px){
     
         .video{
