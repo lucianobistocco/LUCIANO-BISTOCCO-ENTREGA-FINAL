@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
 
 /*/ BODY */
 body{
@@ -178,7 +181,19 @@ iframe {
 }
 .ilustrativo{
  text-align: center;   
-} 
+}
+/*/GALERIA DE IMAGENES */
+#galeria img {
+    width: 100%;
+    height: 300px;
+}
+#galeria  .col-lg-4 {
+    margin: 0 !important;
+    padding: 25px;
+}
+#galeria img:hover {
+    border: 5px solid #f7f7f7; 
+}
 /*/ICONOS DE FOOTER */
 .insta{
  top: -100px;
