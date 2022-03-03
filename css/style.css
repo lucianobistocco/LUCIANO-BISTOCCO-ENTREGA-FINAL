@@ -1,77 +1,92 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+header div button {
+  background-color: black !important; }
+  header div button:hover {
+    background-color: greenyellow !important; }
 
+/*Variables*/
+.sub {
+  color: pink !important; }
 
+/*Map-Get*/
+.subtitulo {
+  color: pink !important; }
+
+/*MIXIN*/
+.record {
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-style: double; }
+
+.parrafo-nosotros {
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #e100ff;
+  text-decoration-style: double; }
 
 /*/ BODY */
-body{
-    margin: 0;
-    padding: 0;
-    background: #3494E6;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+body {
+  margin: 0;
+  padding: 0;
+  background: #3494E6;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EC6EAD, #3494E6);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
-}
+header {
+  grid-area: header; }
 
+.contenido1 {
+  grid-area: contenido1; }
 
+.contenido2 {
+  grid-area: contenido2; }
 
-header{
-    grid-area: header;
-}
-.contenido1{
- grid-area: contenido1;
-}
-.contenido2{
-    grid-area: contenido2;
-}
-footer{
-    grid-area: footer;
-}
- /*/Aca va el logo superior */   
-.logomoto{
-    margin: auto;
-    display: block;
-}
+footer {
+  grid-area: footer; }
+
+/*/Aca va el logo superior */
+.logomoto {
+  margin: auto;
+  display: block; }
+
 /*/Aca va el titulo principal de la pagina */
-.parrafo{
-    font-family: 'Open Sans', sans-serif;
-    font-style:italic;
+.parrafo {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic; }
 
-     
-}
-.divimagen1{
-    
-}
-.div-section1{
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
-    text-align: center;        
-}
-h1{
-    animation: maquina 10s infinite alternate;
-}
+.div-section1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  text-align: center; }
+
+h1 {
+  animation: maquina 10s infinite alternate; }
+
 @keyframes maquina {
-    from {
-        width: 100%;        
-    }
-    to {
-        width: 30%;
-    }
-}
-.divimagen2{
-    width: 550px;
-    margin: auto;
-}
- /*/GALERIA*/ 
-.card-text{
-    font-family: 'Open Sans', sans-serif;
-    font-style:italic;
-}
-.h3top10{
-    font-family: 'Open Sans', sans-serif;
-    font-style:italic;
-}
+  from {
+    width: 100%; }
+  to {
+    width: 30%; } }
+
+.divimagen2 {
+  width: 550px;
+  margin: auto; }
+
+/*/GALERIA*/
+.card-text {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic; }
+
+.h3top10 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic; }
+
 /*.imagenprincipal{
    vertical-align: top;
    padding-left: 40px;   
@@ -80,155 +95,120 @@ h1{
     height: 590px;
     width: 592;
 }
-
 }/*/
 /*/BARRA DE NAVEGACION */
+.logoimagen {
+  width: 80px;
+  height: 80px; }
 
-.logoimagen{
-    width: 80px;
-    height: 80px;
-    
-}
-}
-.LOGOTITULOS{
-    margin: 0;
-    padding: 0;
-    order: -1;
-}
-.barradenavegacion{
+.LOGOTITULOS {
+  margin: 0;
+  padding: 0;
+  order: -1; }
 
-         
-    padding: 0,1px;
-    list-style-type: none;   
-    text-align: center;
-    background-color: rgb(0, 0, 0);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    display: flex;           
-}
-.barradenavegacion li a{
-    
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    padding: 10px;
-    margin-top: 2px;
-    
-    
-    
-    
-}
-.barradenavegacion li{
-    display: inline-block;
-    text-align: right;
-    
-    
-    
-    
-    
-}
-.barradenavegacion li a:hover{
-    background: rgb(0, 0, 0);
-}
+.barradenavegacion {
+  padding: 0,1px;
+  list-style-type: none;
+  text-align: center;
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  display: flex; }
 
-}
-/*/Articulos */ 
+.barradenavegacion li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin-top: 2px; }
 
+.barradenavegacion li {
+  display: inline-block;
+  text-align: right; }
 
-.subtitulo{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2.9em;
-    padding: 20px;
-    
+.barradenavegacion li a:hover {
+  background: black; }
 
-}
-.subtitulo-nosotros{
-    font-family: 'Open Sans', sans-serif;
+/*/Articulos */
+.subtitulo {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.9em;
+  padding: 20px; }
 
-}
-.parrafo-nosotros{
-    font-family: 'Open Sans', sans-serif;
-}
-.contenido2{
-    grid-template-columns: auto;
-    justify-items: center;
-}
+.subtitulo-nosotros {
+  font-family: 'Open Sans', sans-serif; }
+
+.parrafo-nosotros {
+  font-family: 'Open Sans', sans-serif; }
+
+.contenido2 {
+  grid-template-columns: auto;
+  justify-items: center; }
+
 /*/Tabla de H2R MOTO */
 table {
-        
-        table-layout: fixed;
-        width: 90%;
-        max-width: 20%;
-        margin: auto;
-        border: 3px solid rgb(0, 0, 0);
-        background: white;
-        color: rgb(0, 92, 0);
-        font-family: 'Open Sans', sans-serif;       
-}
+  table-layout: fixed;
+  width: 90%;
+  max-width: 20%;
+  margin: auto;
+  border: 3px solid black;
+  background: white;
+  color: #005c00;
+  font-family: 'Open Sans', sans-serif; }
+
 /*/VIDEO DE MOTO */
 iframe {
-    margin-left: 34%;
-    width: 600px;
-    height: 400px;
-}
-.audio{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: 34%;
+  width: 600px;
+  height: 400px; }
 
-}
-.parrafosonido{
-    text-align: center;
-}
-.ilustrativo{
- text-align: center;   
-}
+.audio {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.parrafosonido {
+  text-align: center; }
+
+.ilustrativo {
+  text-align: center; }
+
 /*/GALERIA DE IMAGENES */
 #galeria img {
-    width: 100%;
-    height: 300px;
-}
-#galeria  .col-lg-4 {
-    margin: 0 !important;
-    padding: 25px;
-}
+  width: 100%;
+  height: 300px; }
+
+#galeria .col-lg-4 {
+  margin: 0 !important;
+  padding: 25px; }
+
 #galeria img:hover {
-    border: 5px solid #f7f7f7; 
-}
+  border: 5px solid #f7f7f7; }
+
 /*/ICONOS DE FOOTER */
-.insta{
- top: -100px;
+.insta {
+  top: -100px; }
 
-}
-.footernav{
-    display: flex;
-    flex-direction: row;
-    list-style-type:none;
-    justify-content: center;
-    
-}
-.record{
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    color: black;
-}
- /*/ACA VA EL RESPONSIVE*/ 
-@media(max-width: 320px){
-    
-        .video{
-            width: 300px;
-            height: 200px;
-            margin: 0;  
-            padding-left: 10px;
+.footernav {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center; }
 
-        } 
-        .imagenprincipal{
-            width: 330px;
-        } 
-        .divimagen2{
-            width: 300px;
-    
-         }
-        table{
-            display: none;
-        }
-    }
+.record {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: black; }
+
+/*/ACA VA EL RESPONSIVE*/
+@media (max-width: 320px) {
+  .video {
+    width: 300px;
+    height: 200px;
+    margin: 0;
+    padding-left: 10px; }
+  .imagenprincipal {
+    width: 330px; }
+  .divimagen2 {
+    width: 300px; }
+  table {
+    display: none; } }

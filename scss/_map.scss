@@ -1,0 +1,40 @@
+/*Variables*/
+$titulo: (sub:pink);
+
+
+
+@each $red,
+$color in $titulo {
+    .#{$red} {
+        color: $color !important;
+    } 
+}    
+
+/*Map-Get*/
+.subtitulo{
+    color: map-get($titulo, sub) !important;
+}
+
+/*MIXIN*/
+
+@mixin bold {
+    font-weight: bold;
+}
+
+@mixin underline($color) {
+    text-decoration: underline;
+    text-decoration-color: $color;
+    text-decoration-style: double;
+}
+
+.record {
+    @include bold;
+    @include underline(rgb(0, 0, 0));
+}
+
+.parrafo-nosotros {
+    @include bold;
+    @include underline(rgb(225,
+    0,
+    255));
+}

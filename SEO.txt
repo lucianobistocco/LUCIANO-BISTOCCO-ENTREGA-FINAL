@@ -1,0 +1,3 @@
+DESCRIPCION: En la etiqueta meta name description agregue el siguiente parrafo que explica en pocas palabras el contenido de mi sitio "Aqui encontraras las mejores motos actualmente del mercado"
+PALABRAS CLAVE:mediante la etiqueta meta name keywords , agregue las palabras clave que acompañaran a todas las paginas de mi sitio "MOTOS,CASCO,RUTAS,PEAJES"
+Emcabezado:para el encabezado del h1 utilice el texto "TU MOTO IDEAL" 
