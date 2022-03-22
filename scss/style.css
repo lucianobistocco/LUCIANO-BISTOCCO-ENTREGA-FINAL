@@ -22,19 +22,15 @@ header div button:hover {
 .record {
   font-weight: bold;
   text-decoration: underline;
-  -webkit-text-decoration-color: black;
-          text-decoration-color: black;
-  -webkit-text-decoration-style: double;
-          text-decoration-style: double;
+  text-decoration-color: black;
+  text-decoration-style: double;
 }
 
 .parrafo-nosotros {
   font-weight: bold;
   text-decoration: underline;
-  -webkit-text-decoration-color: #e100ff;
-          text-decoration-color: #e100ff;
-  -webkit-text-decoration-style: double;
-          text-decoration-style: double;
+  text-decoration-color: #e100ff;
+  text-decoration-style: double;
 }
 
 /*/ BODY */
@@ -43,7 +39,6 @@ body {
   padding: 0;
   background: -linear-gradient(to top, #bdc3c7, #33404d);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, left bottom, left top, from(#bdc3c7), to(#33404d));
   background: linear-gradient(to top, #bdc3c7, #33404d);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -79,23 +74,12 @@ footer {
 .div-section1 {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   text-align: center;
 }
 
 h1 {
-  -webkit-animation: maquina 10s infinite alternate;
-          animation: maquina 10s infinite alternate;
-}
-
-@-webkit-keyframes maquina {
-  from {
-    width: 100%;
-  }
-  to {
-    width: 70%;
-  }
+  animation: maquina 10s infinite alternate;
 }
 
 @keyframes maquina {
@@ -132,9 +116,7 @@ h1 {
 .LOGOTITULOS {
   margin: 0;
   padding: 0;
-  -webkit-box-ordinal-group: 0;
-      -ms-flex-order: -1;
-          order: -1;
+  order: -1;
 }
 
 /*/Articulos */
@@ -156,8 +138,7 @@ h1 {
 }
 
 .contenido2 {
-  -ms-grid-columns: auto;
-      grid-template-columns: auto;
+  grid-template-columns: auto;
   justify-items: center;
 }
 
@@ -214,17 +195,10 @@ iframe {
 }
 
 .footernav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   list-style-type: none;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .record {
@@ -235,12 +209,8 @@ iframe {
 
 /*/CONTACTO*/
 .contactoCenter {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .formulario-contacto {
@@ -277,4 +247,3 @@ iframe {
     font-size: 1.9em;
   }
 }
-/*# sourceMappingURL=style.css.map */

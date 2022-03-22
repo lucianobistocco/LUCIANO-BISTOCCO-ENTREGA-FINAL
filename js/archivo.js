@@ -1,5 +1,4 @@
-alert("Bienvenido a Nuestra Pagina");
-"use strict"; 
+
 
 const body = document.body;
 const bgColorsBody = ["#ffb457", "#ff96bd", "#9999fb", "#ffe797", "#cffff1"];
